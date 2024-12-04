@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Business Simulation Game</h1>
+        
+        <div class="stats">
+            <p><strong>Balance:</strong> $<span id="balance">1000</span></p>
+            <p><strong>Inventory:</strong> <span id="inventory">0</span> items</p>
+        </div>
+
+        <div class="shop">
+            <h2>Shop</h2>
+            <p>Buy 1 item for $<span id="item-cost">100</span></p>
+            <button id="buy-button">Buy Item</button>
+        </div>
+
+        <div class="sell">
+            <h2>Sell</h2>
+            <p>Sell 1 item for $<span id="sell-price">150</span></p>
+            <button id="sell-button">Sell Item</button>
+        </div>
+
+        <div class="message">
+            <p id="message">Welcome to the game! Buy and sell items to grow your business.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
